@@ -3,7 +3,7 @@
         jqbar: function (options) {
             var settings = $.extend({
                 animationSpeed: 2000,
-                barLength: 1000,
+                barLength: 755,
                 orientation: 'h',
                 barWidth: 35,
                 barColor: 'red',
@@ -20,9 +20,12 @@
                     progressContainer.addClass('jqbar horizontal').append('<span class="bar-label"></span><span class="bar-level-wrapper"><span class="bar-level"></span></span><span class="bar-percent"></span>');
 
                     var progressLabel = progressContainer.find('.bar-label').html(settings.label);
+
+                    progressLabel.css('font-size','36px');
+
 					
 					//这里搞拉宽
-					progressLabel.css("height",settings.barWidth*1.2);
+					progressLabel.css("height",settings.barWidth * 1.2);
                     //progressLabel.css("transform", "scale(2.5,1.5)");
 					
                     var progressBar = progressContainer.find('.bar-level').attr('data-value', settings.value);
@@ -35,7 +38,9 @@
 
                     var valueLabel = progressContainer.find('.bar-percent');
 					
-					valueLabel.css("height",settings.barWidth);
+                    valueLabel.css("height", settings.barWidth * 1.2);
+
+                    valueLabel.css('font-size', '36px');
 					//valueLabel.css("transform","scale(2.5,1.5)");
 					
                     valueLabel.html('0');
