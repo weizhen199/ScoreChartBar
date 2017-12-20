@@ -23,7 +23,6 @@
 
                     progressLabel.css('font-size','36px');
 
-					
 					//这里搞拉宽
 					progressLabel.css("height",settings.barWidth * 1.2);
                     //progressLabel.css("transform", "scale(2.5,1.5)");
