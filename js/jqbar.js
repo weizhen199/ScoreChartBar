@@ -71,7 +71,7 @@
                         level = 100;
                         alert('max value cannot exceed 100 percent');
                     }
-                    var w = settings.barLength * level / 100.00;
+                    var w = settings.barLength * (level - 75) * 4 / 100.00;
 
                     if (settings.orientation == 'h') {
                         progressBar.animate({ width: w }, {
@@ -80,7 +80,7 @@
                                 var percent = parseFloat(currentWidth / settings.barLength * 100);
                                 if (isNaN(percent))
                                     percent = 0;
-                                progressContainer.find('.bar-percent').html(percent.toFixed(2) + ' ');
+                                progressContainer.find('.bar-percent').html((percent/4 + 75).toFixed(2));
                             }
                         });
                     }

@@ -1,87 +1,87 @@
 ﻿[
   {
     "Company": "泛亚航运",
-    "Score": 51,
+    "Score": 91,
     "Color": "#00FFFF"
   },
   {
     "Company": "大连集运",
-    "Score": 11.99,
+    "Score": 92,
     "Color": "#7FFFD4"
   },
   {
     "Company": "华南集运",
-    "Score": 55,
+    "Score": 93,
     "Color": "#8A2BE2"
   },
   {
     "Company": "宁波集运",
-    "Score": 99.98,
+    "Score": 94,
     "Color": "#A52A2A"
   },
   {
     "Company": "全球信息",
-    "Score": 60,
+    "Score": 95,
     "Color": "#FF8C00"
   },
   {
     "Company": "武汉集运",
-    "Score": 51,
+    "Score": 96,
     "Color": "#228B22"
   },
   {
     "Company": "厦门集运",
-    "Score": 52,
+    "Score": 97,
     "Color": "#FFD700"
   },
   {
     "Company": "洋浦冷藏",
-    "Score": 70,
+    "Score": 98,
     "Color": "#F08080"
   },
   {
     "Company": "总部机关",
-    "Score": 71,
+    "Score": 99,
     "Color": "#D3D3D3"
   },
   {
     "Company": "青岛集运",
-    "Score": 72,
+    "Score": 100,
     "Color": "#DDA0DD"
   },
   {
     "Company": "上远公司",
-    "Score": 75,
+    "Score": 90,
     "Color": "#00008B"
   },
   {
     "Company": "陆产公司",
-    "Score": 40,
+    "Score": 92,
     "Color": "#C71585"
   },
   {
     "Company": "资讯公司",
-    "Score": 20,
+    "Score": 93,
     "Color": "#FFDEAD"
   },
   {
     "Company": "上海集运",
-    "Score": 21,
+    "Score": 94,
     "Color": "#4169E1"
   },
   {
     "Company": "海南集运",
-    "Score": 44,
+    "Score": 95,
     "Color": "#D00000"
   },
   {
     "Company": "中远海货",
-    "Score": 90,
+    "Score": 93,
     "Color": "#00FFFF"
   },
   {
     "Company": "天津集运",
-    "Score": 12,
+    "Score": 96,
     "Color": "#585858"
   }
 ]
