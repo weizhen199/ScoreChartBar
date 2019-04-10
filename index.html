@@ -56,7 +56,6 @@
                                 console.log("不一样");
                                 //console.log(JSON.stringify(page._jsonData));
                                 //console.log(JSON.stringify(data));
-                                //page.show(data);
 
                                 var changeScore;
 
@@ -74,8 +73,11 @@
                                 //跳转
                                 if (changeScore != undefined) {
                                     var url = encodeURI("showOne.html?searchText=" + changeScore);
-                                    location.href = url;
+                                    //location.href = url;
+                                    window.open(url, '_blank');
                                 }
+                            
+                                page.show(data);
                             }
                         }
                     })
