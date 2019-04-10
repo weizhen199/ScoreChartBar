@@ -21,11 +21,11 @@
     font-size: 120px;
     font-family: "Î¢ÈíÑÅºÚ";
     position: absolute;
-    top: 30%;
+    top: 25%;
 }
 
 #showOneScore {
-    width: 200px;
+    width: 400px;
     display: inline-block;
     text-align: center;
     font-family: georgia;

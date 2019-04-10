@@ -62,7 +62,7 @@
 
                                 //遍历取diff
                                 $.each(data, function (idx, objData) {
-                                    $.each(page._jsonData, function (idx, objPageData) {                                   
+                                    $.each(page._jsonData, function (idx, objPageData) {
                                         if (objData.Company === objPageData.Company && objData.Score !== objPageData.Score) {
                                             changeScore = objData.Score;
                                         }
