@@ -1,82 +1,77 @@
 [
   {
-    "Company": "泛亚航运",
-    "Score": 87.33,
+    "Company": "项目 1",
+    "Score": 88,
     "Color": "#00FFFF"
   },
   {
-    "Company": "大连集运",
-    "Score": 87.61,
+    "Company": "项目 2",
+    "Score": 100,
     "Color": "#7FFFD4"
   },
   {
-    "Company": "华南集运",
-    "Score": 91.79,
+    "Company": "项目 3",
+    "Score": 81,
     "Color": "#8A2BE2"
   },
   {
-    "Company": "宁波集运",
-    "Score": 85.06,
+    "Company": "项目 4",
+    "Score": 92,
     "Color": "#A52A2A"
   },
   {
-    "Company": "全球信息",
-    "Score": 87.69,
+    "Company": "项目 5",
+    "Score": 90,
     "Color": "#FF8C00"
   },
   {
-    "Company": "武汉集运",
-    "Score": 86.81,
+    "Company": "项目 6",
+    "Score": 87,
     "Color": "#228B22"
   },
   {
-    "Company": "厦门集运",
-    "Score": 87.01,
+    "Company": "项目 7",
+    "Score": 0,
     "Color": "#FFD700"
   },
   {
-    "Company": "总部机关",
-    "Score": 91.44,
+    "Company": "项目 8",
+    "Score": 0,
     "Color": "#D3D3D3"
   },
   {
-    "Company": "青岛集运",
-    "Score": 86.68,
+    "Company": "项目 9",
+    "Score": 0,
     "Color": "#DDA0DD"
   },
   {
-    "Company": "上远公司",
-    "Score": 87.72,
+    "Company": "项目 10",
+    "Score": 0,
     "Color": "#00008B"
   },
   {
-    "Company": "陆产公司",
-    "Score": 85.79,
+    "Company": "项目 11",
+    "Score": 0,
     "Color": "#C71585"
   },
   {
-    "Company": "资讯公司",
-    "Score": 88.63,
+    "Company": "项目 12",
+    "Score": 0,
     "Color": "#FFDEAD"
   },
   {
-    "Company": "上海集运",
-    "Score": 85.64,
+    "Company": "项目 13",
+    "Score": 0,
     "Color": "#4169E1"
   },
   {
-    "Company": "海南集运",
-    "Score": 84.06,
+    "Company": "项目 14",
+    "Score": 0,
     "Color": "#D00000"
   },
   {
-    "Company": "中远海货",
-    "Score": 90.08,
-    "Color": "#00FFFF"
-  },
-  {
-    "Company": "天津集运",
-    "Score": 84.42,
-    "Color": "#585858"
+    "Company": "项目 15",
+    "Score": 0,
+    "Color": "#000000"
   }
 ]

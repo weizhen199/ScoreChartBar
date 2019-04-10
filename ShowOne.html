@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--meta http-equiv="refresh" content="10"-->
+    <meta charset="UTF-8">
+    <title>Score</title>
+    <link href="css/demo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/jqbar.css" />
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jqbar.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="showOne" class="warp">
+        <strong id="showOneScore" class="keyword1" style="margin-bottom:25px;"></strong>分
+    </div>
+
+    <script type="text/javascript">
+        var page = {
+            init: function () {
+                //获取 上一个搜索页面传来的参数
+                var searchUrl = window.location.href;
+                var searchData = searchUrl.split("="); //截取 url中的“=”,获得“=”后面的参数
+                var searchText = decodeURI(searchData[1]); //decodeURI解码
+                console.log(searchText);
+                $(".keyword1").text(searchText);
+
+                setTimeout(function () {
+                    location.href = "index.html";
+                }, 5000);
+
+            }
+        };
+        $(function () {
+            page.init();
+        });
+    </script>
+
+</body>
+</html>

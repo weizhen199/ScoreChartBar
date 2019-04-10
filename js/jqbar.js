@@ -23,7 +23,7 @@
 
                     progressLabel.css('font-size','36px');
 
-					//这里搞拉宽
+					//这里拉宽
 					progressLabel.css("height",settings.barWidth * 1.5);
                     //progressLabel.css("transform", "scale(2.5,1.5)");
 					
@@ -71,7 +71,7 @@
                         level = 100;
                         alert('max value cannot exceed 100 percent');
                     }
-                    var w = settings.barLength * (level - 75) * 4 / 100.00;
+                    var w = settings.barLength * (level - 50) * 2 / 100.00;
 
                     if (settings.orientation == 'h') {
                         progressBar.animate({ width: w }, {
@@ -80,7 +80,7 @@
                                 var percent = parseFloat(currentWidth / settings.barLength * 100);
                                 if (isNaN(percent))
                                     percent = 0;
-                                progressContainer.find('.bar-percent').html((percent/4 + 75).toFixed(2));
+                                progressContainer.find('.bar-percent').html((percent/2+ 50).toFixed(2));
                             }
                         });
                     }

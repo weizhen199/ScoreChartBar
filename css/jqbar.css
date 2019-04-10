@@ -13,22 +13,40 @@
     transform: scaleY(0.38);
 }
 
-/*Count down*/
-.warp {
+#showOne {
     width: 100%;
     height: 250px;
     line-height: 250px;
     text-align: center;
     font-size: 120px;
     font-family: "Î¢ÈíÑÅºÚ";
+    position: absolute;
+    top: 30%;
 }
 
-.warp strong {
-    width: 250px;
+#showOneScore {
+    width: 200px;
     display: inline-block;
     text-align: center;
     font-family: georgia;
-    color: #C9302C;
+    color: #A52A2A;
+}
+ 
+.warp {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.warp strong {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: georgia;
+    color: #C0C0C0;
 }
 
 /*¹ö¶¯Ìõ*/
