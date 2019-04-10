@@ -1,4 +1,4 @@
-﻿(function ($) {
+(function ($) {
     $.fn.extend({
         jqbar: function (options) {
             var settings = $.extend({
@@ -24,7 +24,7 @@
                     progressLabel.css('font-size','36px');
 
 					//这里搞拉宽
-					progressLabel.css("height",settings.barWidth * 1.2);
+					progressLabel.css("height",settings.barWidth * 1.5);
                     //progressLabel.css("transform", "scale(2.5,1.5)");
 					
                     var progressBar = progressContainer.find('.bar-level').attr('data-value', settings.value);
