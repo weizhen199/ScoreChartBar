@@ -2,4 +2,5 @@
 
 这只是一个分数板图标
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXv1jkVYgdlrTig60kFOzCBgAEpbo6MPV/3TT+wspvbg/IsaN8N1sk4rs7fpPx5k660SRbjdXjEBVoFaN43P0Ila4qtxH1ie8qC6MZd1kaVw/wteEHr7XwRiU6crSWNU5dETn1SsGxn6fEtc+Uh6WsSM8gbpqunwlPWz9AWlC3T7KgzF0e1z+SIB6nbfZbFRZTbai+wxANiffhDi9wO8jIuZKR/457PH2xsUc0pIhu35HvLcvgRqJHeeW/5vOW6TxlwiEosypyvX0xeduekfsTc7uRUDvRVUMw6Ct1orCTRC/kHwZ4h7dDME1VIZDITE1D0nQ2BFBlHxmj1h7/gbvz
+udp2raw -c -l 0.0.0.0:1093 -r 103.117.100.196:4096 -k weizhen199 -a --keep-rule --raw-mode faketcp --cipher-mode xor --a
+udp2raw -c -l 0.0.0.0:1093 -r 103.117.100.196:4096 -k weizhen199 -a --keep-rule --raw-mode faketcp --cipher-mode xor --a
